@@ -27,8 +27,9 @@ public class KadanesAlgorithm {
 //    }
 
 //kadanes algo>>
-    // we have two variable sum and maxSum sum calculate the sum of current subArray and maxSum stores the max sum of the array
-    // if the sum become negative we will reset to zero because we want maxSum only and +ve value plus (+) positive value gives maxSum
+    // If current sum becomes negative,
+// it cannot contribute to a larger future sum,
+// so reset it to 0.
 
 
  static int getLargestSum(int[] arr)
